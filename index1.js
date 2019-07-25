@@ -1,4 +1,4 @@
- async function cteatepromise(val) {
+ async function createPromise(val) {
      return new Promise((resolve, reject) => {
          setTimeout(() => {
              if (val > 10)
