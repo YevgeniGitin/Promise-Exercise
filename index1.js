@@ -11,7 +11,7 @@
 
 
  for (let i = 0; i < 20; i += 3) {
-     cteatepromise(i)
+     createPromise(i)
          .then(res => console.log(res))
          .catch(err => console.log(err));
  }
